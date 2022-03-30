@@ -6,22 +6,23 @@ Machine and the words to be verified given by the user through an input file.
 ## Input template and types
 
 The file "mealy.in" contains an input example.
+```
+number_of_states (integer)
+number_of_transitions (integer)
 
-`number_of_states` (integer)
-`number_of_transitions`(integer)
+from_state to_state transition_letter encrypt_word (string string char string)
+... -->  number_of_transitions times. 
 
-`from_state to_state transition_letter encrypt_word` (string string char string) <br>
-... --> `number_of_transitions` times. 
+initial_state (string)
 
-`initial_state` (string)
+number_of_final_states (integer)
+final_state (string)
+... -->  number_of_final_states  times. 
 
-`number_of_final_states` (integer)
-`final_state` (string)
-... --> `number_of_final_states` times. 
-
-`number_of_words` (integer)
-`word` (string) <br>
-... --> `number_of_words` times.
+number_of_words (integer)
+word (string) 
+... -->  number_of_words times.
+```
 
 ## Output
 
