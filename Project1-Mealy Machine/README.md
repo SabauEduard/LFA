@@ -10,7 +10,7 @@ The file "mealy.in" contains an input example.
 `number_of_states` (integer)
 `number_of_transitions`(integer)
 
-`from_state to_state transition_letter encrypt_word` (string string char string)
+`from_state to_state transition_letter encrypt_word` (string string char string) <br>
 ... --> `number_of_transitions` times. 
 
 `initial_state` (string)
@@ -20,7 +20,7 @@ The file "mealy.in" contains an input example.
 ... --> `number_of_final_states` times. 
 
 `number_of_words` (integer)
-`word` (string)
+`word` (string) <br>
 ... --> `number_of_words` times.
 
 ## Output
